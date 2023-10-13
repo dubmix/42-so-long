@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_int.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pdelanno <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: pdelanno <pdelanno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/01 16:19:54 by pdelanno          #+#    #+#             */
-/*   Updated: 2023/03/21 08:36:19 by pdelanno         ###   ########.fr       */
+/*   Updated: 2023/10/13 14:48:44 by pdelanno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../so_long.h"
+#include "../../so_long.h"
 
 void	ft_print_int(t_print *tab)
 {

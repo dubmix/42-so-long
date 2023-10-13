@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   flags.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pdelanno <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: pdelanno <pdelanno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/08 19:11:19 by pdelanno          #+#    #+#             */
-/*   Updated: 2023/03/20 16:29:08 by pdelanno         ###   ########.fr       */
+/*   Updated: 2023/10/13 14:47:49 by pdelanno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../so_long.h"
+#include "../../so_long.h"
 
 int	ft_strlenprf(t_print *tab, char *str)
 {

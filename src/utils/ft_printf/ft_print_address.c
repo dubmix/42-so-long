@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_address.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pdelanno <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: pdelanno <pdelanno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/01 16:28:40 by pdelanno          #+#    #+#             */
-/*   Updated: 2023/03/21 15:12:04 by pdelanno         ###   ########.fr       */
+/*   Updated: 2023/10/13 14:48:34 by pdelanno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../so_long.h"
+#include "../../so_long.h"
 
 void	ft_print_address(t_print *tab)
 {

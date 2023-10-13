@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   init.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pdelanno <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: pdelanno <pdelanno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/18 09:44:18 by pdelanno          #+#    #+#             */
-/*   Updated: 2023/05/22 09:49:45 by pdelanno         ###   ########.fr       */
+/*   Updated: 2023/10/13 15:06:29 by pdelanno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,9 @@ void	ft_init_imgs(t_data *data)
 	void	*mlx;
 
 	mlx = data->mlx;
+	ft_printf("path is%s\n", EEVEEFRONT_PATH);
 	data->eeveefront = ft_new_img(mlx, EEVEEFRONT_PATH);
+	ft_printf("path is%s\n", EEVEEFRONT_PATH);
 	data->eeveeback = ft_new_img(mlx, EEVEEBACK_PATH);
 	data->eeveeleft = ft_new_img(mlx, EEVEELEFT_PATH);
 	data->eeveeright = ft_new_img(mlx, EEVEERIGHT_PATH);

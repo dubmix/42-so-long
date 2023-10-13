@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   so_long.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pdelanno <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: pdelanno <pdelanno@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/30 14:22:16 by pdelanno          #+#    #+#             */
-/*   Updated: 2023/05/25 07:56:21 by pdelanno         ###   ########.fr       */
+/*   Updated: 2023/10/13 15:10:36 by pdelanno         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@
 # include <stdlib.h>
 # include <fcntl.h>
 # include <string.h>
-# include "printf/ft_printf.h"
+# include "utils/ft_printf/ft_printf.h"
 
 # define IMG_WIDTH 32
 # define IMG_HEIGHT 32
@@ -41,15 +41,15 @@
 # define KEY_LEFT 65361
 # define KEY_RIGHT 65363
 
-# define EEVEEFRONT_PATH "textures/eeveefront.xpm"
-# define EEVEEBACK_PATH "textures/eeveeback.xpm"
-# define EEVEELEFT_PATH "textures/eeveeleft.xpm"
-# define EEVEERIGHT_PATH "textures/eeveeright.xpm"
-# define BACKGROUND_PATH "textures/background.xpm"
-# define WALL_PATH "textures/wall.xpm"
-# define ITEMS_PATH "textures/items.xpm"
-# define EXIT_PATH "textures/exit.xpm"
-# define ENEMY_PATH "textures/enemy.xpm"
+# define EEVEEFRONT_PATH "src/utils/textures/eeveefront.xpm"
+# define EEVEEBACK_PATH "src/utils/textures/eeveeback.xpm"
+# define EEVEELEFT_PATH "src/utils/textures/eeveeleft.xpm"
+# define EEVEERIGHT_PATH "src/utils/textures/eeveeright.xpm"
+# define BACKGROUND_PATH "src/utils/textures/background.xpm"
+# define WALL_PATH "src/utils/textures/wall.xpm"
+# define ITEMS_PATH "src/utils/textures/items.xpm"
+# define EXIT_PATH "src/utils/textures/exit.xpm"
+# define ENEMY_PATH "src/utils/textures/enemy.xpm"
 
 typedef struct s_map
 {
