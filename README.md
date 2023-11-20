@@ -19,7 +19,7 @@ Here are a few screenshots of the end result:
 
 Warning: `Makefile` is configured for `Linux` use only.
 
-> - Compile with `make`. If `minilibx` hasn't be installed yet, it will happen automatically
+> - Compile with `make`. If `minilibx` isn't present, it will be installed automatically
 > - Then run with `./so_long` + `map name` | Example: `./push_swap maps/map1.ber`
 > - Move Eevee with the arrow keys
 > - Exit the game at any time by pressing `esc` or by closing the window
